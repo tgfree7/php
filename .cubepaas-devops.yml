@@ -2,7 +2,7 @@ stages:
   - name: Build
     steps:
       - runScriptConfig:
-          image: link-cloud/composer:latest
+          image: link-cloud/php-composer:latest
           shellScript: |-
             composer install
   - name: Publish
